@@ -12,7 +12,7 @@ export default function Footer() {
           <div className='flex gap-3'>
             <Icons.gitHub className='size-6' />
             <Link
-              href='https://github.com/NoorFatima01/team-management'
+              href='https://github.com/angiolino-hub'
               target='_blank'
             >
               <p className='text-md text-blue-600 hover:underline'>
@@ -23,15 +23,8 @@ export default function Footer() {
         </div>
         <div className='mb-2 flex gap-2'>
           <span>Made by</span>
-          <Link href='https://github.com/NoorFatima01' target='_blank'>
-            <p className='text-md text-blue-600 hover:underline'>Noor Fatima</p>
-          </Link>
-
-          <span>and</span>
-          <Link href='https://github.com/Amama-Fatima' target='_blank'>
-            <p className='text-md text-blue-600 hover:underline'>
-              Amama Fatima
-            </p>
+          <Link href='https://github.com/angiolino-hub' target='_blank'>
+            <p className='text-md text-blue-600 hover:underline'>Angelo</p>
           </Link>
         </div>
       </div>
